@@ -1,0 +1,143 @@
+My roll number = 22CS30027
+
+Secret Found = 929593
+
+/* 
+
+Thought Process
+
+initially set the value of var guess as 0 and then 1 if the number of bits away decrease then 1 will be the last bit or it is 0. now continue the same process by adding 2 power 1 to the last var i.e to check the last but one bit is 0 or 1.continue the process with 2 power 2,2 power 3 so on up to 2 power 19. each time we will fix the one one bit of the number.
+
+*/
+
+chmod 755 guessit
+
+gdb guessit
+
+b 22
+
+r 22CS30027
+
+set var guess = 0
+
+c
+
+r 22CS30027
+
+set var guess = 1
+
+c
+
+r 22CS30027
+
+set var guess = 3
+
+c
+
+r 22CS30027
+
+set var guess = 5
+
+c
+
+r 22CS30027
+
+set var guess = 9
+
+c
+
+r 22CS30027
+
+set var guess = 25
+
+c
+
+r 22CS30027
+
+set var guess = 57
+
+c
+
+r 22CS30027
+
+set var guess = 121
+
+c
+
+r 22CS30027
+
+set var guess = 185
+
+c
+
+r 22CS30027
+
+set var guess = 313
+
+c
+
+r 22CS30027
+
+set var guess = 825
+
+c
+
+r 22CS30027
+
+set var guess = 1849
+
+c
+
+r 22CS30027
+
+set var guess = 3897
+
+c
+
+r 22CS30027
+
+set var guess = 7993
+
+c
+
+r 22CS30027
+
+set var guess = 12089
+
+c
+
+r 22CS30027
+
+set var guess = 28473
+
+c
+
+r 22CS30027
+
+set var guess = 44857
+
+c
+
+r 22CS30027
+
+set var guess = 77625
+
+c
+
+r 22CS30027
+
+set var guess = 143161
+
+c
+
+r 22CS30027
+
+set var guess = 405305
+
+c
+
+r 22CS30027
+
+set var guess = 929593
+
+c
